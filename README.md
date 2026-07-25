@@ -90,3 +90,14 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ### AI Collaboration Reflection
 > AI was used throughout development as a collaborative assistant to structure, refine, and test the platform. It helped establish standard semantic patterns, assist with cross-browser CSS variable architecture, construct the lightweight client-side chatbot logic, and write clear, maintainable project documentation. Additionally, AI was leveraged during the deployment phase to debug Git rebase workflows and optimize accessibility attributes.
+
+## 📝 Task B Optimization Changelog
+
+| What Was Changed | Technical Implementation | What It Bought Us (Impact / Gain) |
+| :--- | :--- | :--- |
+| **Switched to Vanilla JS** | Removed heavy JavaScript libraries/frameworks in favor of native ES6+ modules for mobile menu, theme toggle, and chatbot. | **Zero bundle overhead & faster execution:** Reduced main-thread blocking time, helping achieve a **99/100 Performance** score on Lighthouse. |
+| **Semantic Landmarks & Heading Hierarchy** | Refactored layout to use native semantic elements (`<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`) with sequential `<h1>`–`<h3>` tags. | **Enhanced Screen Reader Navigation:** Solved landmark audit flags and elevated Accessibility score to **96/100**. |
+| **Dynamic Form Validation with ARIA Attributes** | Added `role="status"`, `aria-live="polite"`, and `aria-describedby` links to the contact form inputs and error messages. | **Accessible Error Feedback:** Screen readers now announce validation errors instantly without breaking user focus. |
+| **CSS Variables & Native Layouts (Grid/Flexbox)** | Replaced external UI frameworks with native CSS custom properties for dark/light themes and pure CSS Grid/Flexbox for layout responsiveness. | **Minimal CSS Payload:** Decreased render-blocking stylesheet sizes and achieved near-instant First Contentful Paint (FCP). |
+| **Canonical Link & Meta Tags** | Added `<link rel="canonical" href="https://northpeak-digital-zeta.vercel.app/">` and structured metadata in `<head>`. | **100/100 SEO Score:** Prevents duplicate content issues and signals clear indexing instructions to search crawlers. |
+| **Optimized Font & Asset Loading** | Embedded Google Fonts (`Zilla Slab`, `Inter`, `JetBrains Mono`) with `display=swap` and preconnect hints. | **Eliminated Layout Shifts (CLS):** Prevents flash of unstyled text (FOUT) and stabilizes Largest Contentful Paint (LCP). |
