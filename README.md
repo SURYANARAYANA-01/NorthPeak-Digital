@@ -67,7 +67,7 @@ To inspect or run this project locally:
 ## 🌐 Deployment & Live Site
 
 1. Replace the placeholder canonical link in `index.html` with your live domain:
-   `<link rel="canonical" href="https://your-domain.com/">`
+   `<link rel="canonical" href="northpeak-digital-zeta.vercel.app/">`
 
 2. Deploy the root files directly via **GitHub Pages**, **Vercel**, or **Netlify**.
 
