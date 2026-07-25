@@ -37,39 +37,44 @@ A fast, high-converting, and fully responsive website designed and developed for
 
 ## 📂 Project Structure
 
-```text
-├── index.html                  # Main semantic HTML structure
-├── northpeak-main.css          # Main site design system & layout styles
-├── northpeak-core.js          # Theme toggle, mobile menu, form validation logic
-├── robots.txt                  # Search engine crawler instructions
-├── LICENSE                     # MIT License file
-├── Chatbot/
-│   ├── northpeak-chatbot.css   # Chatbot UI styling & animations
-│   ├── northpeak-chatbot.js    # Interactive chatbot logic
-│   └── northpeak-chatbot-data.js # Intent matching & chatbot knowledge base
-└── README.md                   # Project documentation
-⚙️ Local Development Setup
+- index.html                  # Main semantic HTML structure
+- northpeak-main.css          # Main site design system & layout styles
+- northpeak-core.js           # Theme toggle, mobile menu, form validation logic
+- robots.txt                  # Search engine crawler instructions
+- LICENSE                     # MIT License file
+- Chatbot/
+  - northpeak-chatbot.css     # Chatbot UI styling & animations
+  - northpeak-chatbot.js      # Interactive chatbot logic
+  - northpeak-chatbot-data.js # Intent matching & chatbot knowledge base
+- README.md                   # Project documentation
+
+---
+
+## ⚙️ Local Development Setup
+
 To inspect or run this project locally:
 
-Clone the repository:
+1. **Clone the repository:**
+   `git clone https://github.com/SURYANARAYANA-01/NorthPeak-Digital.git`
+   `cd NorthPeak-Digital`
 
-Bash
-git clone [https://github.com/SURYANARAYANA-01/NorthPeak-Digital.git](https://github.com/SURYANARAYANA-01/NorthPeak-Digital.git)
-cd NorthPeak-Digital
-Launch with a Local Server:
+2. **Launch with a Local Server:**
+   * **VS Code:** Install the **Live Server** extension, right-click `index.html`, and select **"Open with Live Server"** (default port `5500`).
+   * **Python:** Run `python3 -m http.server 8000` in the project root directory and navigate to `http://localhost:8000`.
 
-VS Code: Install the Live Server extension, right-click index.html, and select "Open with Live Server" (default port 5500).
+---
 
-Python: Run python3 -m http.server 8000 in the project root directory and navigate to http://localhost:8000.
+## 🌐 Deployment & Live Site
 
-🌐 Deployment & Live Site
-Replace the placeholder canonical link in index.html with your live domain:
+1. Replace the placeholder canonical link in `index.html` with your live domain:
+   `<link rel="canonical" href="https://your-domain.com/">`
 
-HTML
-<link rel="canonical" href="[https://your-domain.com/](https://your-domain.com/)">
-Deploy the root files directly via GitHub Pages, Vercel, or Netlify.
+2. Deploy the root files directly via **GitHub Pages**, **Vercel**, or **Netlify**.
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+---
 
-Built for the Digital Heroes Training Task — digitalheroesco.com
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+*Built for the Digital Heroes Training Task — [digitalheroesco.com](https://digitalheroesco.com)*
