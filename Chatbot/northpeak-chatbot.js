@@ -437,7 +437,6 @@
                 this.state.recordAnswer(parentNode.save, finalValue);
             }
 
-            // Disable container controls after submission
             const allBtns = containerEl.querySelectorAll('button');
             allBtns.forEach(btn => btn.disabled = true);
 
@@ -633,7 +632,7 @@
             restartBtn.addEventListener('click', () => {
                 fillBtn.disabled = true;
                 restartBtn.disabled = true;
-                this.state.answers = {}; // Reset answers for clean session
+                this.state.answers = {};
                 this.state.isComplete = false;
                 this.processNode('start');
             });
@@ -648,7 +647,6 @@
             const form = document.getElementById(CONFIG.FORM_IDS.FORM);
             if (!form) return;
 
-            // 1. Autofill Project Type Dropdown (#project)
             const projectSelect = form.querySelector('#' + CONFIG.FORM_IDS.PROJECT);
             if (projectSelect) {
                 const websiteType = (this.state.answers['Website Type'] || '').trim().toLowerCase();
@@ -656,7 +654,6 @@
                 
                 let targetFormValue = '';
 
-                // Categorize accurately into HTML option values ("New website", "Redesign", "Web app")
                 if (websiteType.includes('redesign')) {
                     targetFormValue = 'redesign';
                 } else if (projectType.includes('web application') || projectType.includes('web app')) {
@@ -682,13 +679,11 @@
                 }
             }
 
-            // 2. Autofill Budget Range Dropdown
             const budgetSelect = form.querySelector('#' + CONFIG.FORM_IDS.BUDGET);
             if (budgetSelect && this.state.answers['Budget']) {
                 const targetBudget = String(this.state.answers['Budget']).trim();
                 let matchedIndex = -1;
 
-                // Exact text/value match first
                 for (let i = 0; i < budgetSelect.options.length; i++) {
                     const optTxt = budgetSelect.options[i].text.trim();
                     const optVal = budgetSelect.options[i].value.trim();

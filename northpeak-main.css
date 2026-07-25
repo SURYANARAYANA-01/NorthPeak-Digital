@@ -69,7 +69,6 @@ a{color:inherit;}
   font-size:0.72rem;
   letter-spacing:0.14em;
   text-transform:uppercase;
-  /* Accessibility Fix: Use higher contrast accent */
   color:var(--accent-accessible); 
   font-weight: 700;
 }
@@ -92,7 +91,6 @@ h1,h2,h3{font-family:var(--display); font-weight:600; margin:0; letter-spacing:-
   white-space: nowrap;
 }
 .btn:hover{transform:translateY(-1px);}
-/* Accessibility Fix: Ensure primary button text contrasts heavily with background */
 .btn-primary{background:var(--accent); color:var(--accent-contrast) !important; font-weight: 700;}
 .btn-primary:hover{box-shadow:0 8px 24px rgba(255,106,61,0.35);}
 .btn-ghost{background:transparent; color:var(--text); border-color:var(--line);}
@@ -166,7 +164,6 @@ header{
 }
 .hero-actions{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:44px;}
 
-/* Smooth Hero Tags */
 .hero-tags{
   display:flex;
   gap:8px;
@@ -211,7 +208,6 @@ header{
 .tag:hover .tag-default{display:none;}
 .tag:hover .tag-hover{display:inline;}
 
-/* Hero dashboard mockup */
 .mockup{
   background:var(--panel); border:1px solid var(--line-soft); border-radius:14px;
   box-shadow:var(--shadow); overflow:hidden;
@@ -296,11 +292,9 @@ section{padding:88px 0;}
   transition:transform 0.2s ease, box-shadow 0.2s ease;
 }
 .quote-card:hover{transform:translateY(-3px); box-shadow:var(--shadow);}
-/* Accessibility Fix: Ensure card tags are legible */
 .quote-card .card-tag{font-size:0.68rem; font-weight:700; color:var(--accent-accessible);}
 .quote-card blockquote{margin:0; font-size:0.95rem; color:var(--text); line-height:1.6;}
 .quote-person{display:flex; align-items:center; gap:12px; margin-top:auto;}
-/* Accessibility Fix: Avatar color contrast against background */
 .avatar{
   width:38px; height:38px; border-radius:50%; background:var(--line);
   color:var(--text) !important; font-family:var(--display); font-weight:700; font-size:0.95rem;
@@ -333,7 +327,6 @@ section{padding:88px 0;}
   font-family:var(--mono); font-size:0.66rem; letter-spacing:0.05em;
   padding:5px 10px; border-radius:5px; text-transform:uppercase; font-weight:600;
 }
-/* Accessibility Fix: Tier name color contrast */
 .tier-name{font-family:var(--mono); font-size:0.73rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--accent-accessible); font-weight: 700;}
 .price-card h3{font-size:1.4rem; margin:10px 0 4px;}
 .price{font-family:var(--display); font-size:2.2rem; font-weight:700; margin:12px 0 4px;}

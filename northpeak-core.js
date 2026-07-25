@@ -1,4 +1,4 @@
-// ---- Immediate Theme Initializer (prevents theme flash without inline HTML script) ----
+// ---- Immediate Theme Initializer ----
 (function initTheme(){
   try {
     var stored = localStorage.getItem('northpeak-theme');
@@ -21,7 +21,6 @@
     try { 
       localStorage.setItem('northpeak-theme', next); 
     } catch(e) {
-      /* localStorage blocked or unavailable */
     }
   });
 })();

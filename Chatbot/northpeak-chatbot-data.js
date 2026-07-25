@@ -256,7 +256,6 @@ const chatbotData = {
 
 };
 
-// Ensures global availability regardless of script scoping
 if (typeof window !== 'undefined') {
     window.chatbotData = chatbotData;
 }
