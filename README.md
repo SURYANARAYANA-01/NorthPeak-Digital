@@ -78,3 +78,15 @@ To inspect or run this project locally:
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 *Built for the Digital Heroes Training Task — [digitalheroesco.com](https://digitalheroesco.com)*
+
+## 🛠️ Technical Decisions & AI Reflection
+
+### Technical Choices (Performance & Accessibility)
+* **Semantic HTML5 Architecture:** Utilized native landmarks (`<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`) and strict heading hierarchy to build a accessible page structure for screen readers and search crawlers.
+* **Vanilla JavaScript (Zero Heavy Frameworks):** Built interactive components (dark/light theme toggle, mobile navigation menu, interactive chatbot, and client-side form validation) purely with vanilla ES6+ JS to minimize main-thread work and eliminate bundle overhead.
+* **Modern CSS3 Layout System:** Leveraged native CSS custom properties (variables), Flexbox, and CSS Grid to handle layout switching smoothly without external UI libraries.
+* **Accessible Form Design:** Integrated explicit form labeling, visual error indicators, and live screen-reader feedback using `aria-describedby` and dynamic focus states.
+* **Optimized Meta & Engine Infrastructure:** Configured canonical links (`<link rel="canonical">`), structured `robots.txt`, and asynchronous Google Font loading to maintain near-perfect Lighthouse scores (99 Performance / 96 Accessibility / 100 Best Practices / 100 SEO).
+
+### AI Collaboration Reflection
+> AI was used throughout development as a collaborative assistant to structure, refine, and test the platform. It helped establish standard semantic patterns, assist with cross-browser CSS variable architecture, construct the lightweight client-side chatbot logic, and write clear, maintainable project documentation. Additionally, AI was leveraged during the deployment phase to debug Git rebase workflows and optimize accessibility attributes.
