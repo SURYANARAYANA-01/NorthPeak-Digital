@@ -28,8 +28,8 @@ A fast, high-converting, and fully responsive website designed and developed for
 
 | Category | Mobile | Desktop |
 | :--- | :---: | :---: |
-| ⚡ **Performance** | **99 - 100** | **100** |
-| ♿ **Accessibility** | **100** | **100** |
+| ⚡ **Performance** | **99 - 100** | **99-100** |
+| ♿ **Accessibility** | **96** | **96** |
 | 🛡️ **Best Practices** | **100** | **100** |
 | 🔍 **SEO** | **100** | **100** |
 
