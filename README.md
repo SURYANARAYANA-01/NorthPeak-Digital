@@ -101,3 +101,20 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 | **CSS Variables & Native Layouts (Grid/Flexbox)** | Replaced external UI frameworks with native CSS custom properties for dark/light themes and pure CSS Grid/Flexbox for layout responsiveness. | **Minimal CSS Payload:** Decreased render-blocking stylesheet sizes and achieved near-instant First Contentful Paint (FCP). |
 | **Canonical Link & Meta Tags** | Added `<link rel="canonical" href="https://northpeak-digital-zeta.vercel.app/">` and structured metadata in `<head>`. | **100/100 SEO Score:** Prevents duplicate content issues and signals clear indexing instructions to search crawlers. |
 | **Optimized Font & Asset Loading** | Embedded Google Fonts (`Zilla Slab`, `Inter`, `JetBrains Mono`) with `display=swap` and preconnect hints. | **Eliminated Layout Shifts (CLS):** Prevents flash of unstyled text (FOUT) and stabilizes Largest Contentful Paint (LCP). |
+
+## 📊 Task B Deliverables & Lighthouse Audit Results
+
+* 🎬 **Loom / Video Walkthrough:** [Watch Video Walkthrough](https://drive.google.com/file/d/14ihB3wHDAWwvOXBGgEmpunZ5dE_SPOzk/view?usp=sharing)
+* 🌐 **Live Website:** [https://northpeak-digital-zeta.vercel.app/](https://northpeak-digital-zeta.vercel.app/)
+
+| Category | Mobile | Desktop |
+| :--- | :---: | :---: |
+| ⚡ **Performance** | **99** | **99** |
+| ♿ **Accessibility** | **96** | **96** |
+| 🛡️ **Best Practices** | **100** | **100** |
+| 🔍 **SEO** | **100** | **100** |
+
+<div align="center">
+  <img src=".NorthPeak Digital Submission- Suryanarayana S/Lighthouse- Desktop.png" alt="Lighthouse Desktop Score" width="48%">
+  <img src=".NorthPeak Digital Submission- Suryanarayana S/Lighthouse- Mobile.png" alt="Lighthouse Mobile Score" width="48%">
+</div>
