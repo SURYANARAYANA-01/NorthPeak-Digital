@@ -115,6 +115,6 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 | 🔍 **SEO** | **100** | **100** |
 
 <div align="center">
-  <img src=".NorthPeak Digital Submission- Suryanarayana S/Lighthouse- Desktop.png" alt="Lighthouse Desktop Score" width="48%">
-  <img src=".NorthPeak Digital Submission- Suryanarayana S/Lighthouse- Mobile.png" alt="Lighthouse Mobile Score" width="48%">
+  <img src=".Screenshots/Lighthouse- Desktop.png" alt="Lighthouse Desktop Score" width="48%">
+  <img src=".Screenshots/Lighthouse- Mobile.png" alt="Lighthouse Mobile Score" width="48%">
 </div>
